@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:src="@mipmap/loogo_foreground"
+            android:id="@+id/logo"
+            android:layout_gravity="center"
+            android:layout_marginTop="-50dp"/>
+
+        <TextView
+            android:layout_marginTop="-100dp"
+            android:id="@+id/Teks1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RE.WIDE"
+            android:textSize="60dp"
+            android:gravity="center"
+            app:fontFamily="monospace"
+            android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+            android:layout_marginTop="-15dp"
+            android:layout_width= "match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recording with code system"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/Teks2"
+            android:gravity="center"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
